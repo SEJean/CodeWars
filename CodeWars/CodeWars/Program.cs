@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+//Author profile : https://www.codewars.com/users/jeank714
 namespace CodeWars
 {
     class Program
@@ -11,15 +13,18 @@ namespace CodeWars
         static void Main(string[] args)
         {
 
-
+            Console.Read();
         }
+    }
 
-
+    public static class Kata
+    {
         /// <summary>
         /// Challenge URL : https://www.codewars.com/kata/ip-validation/
         /// </summary>
         /// <param name="IpAddres"></param>
         /// <returns>true if the IP address is valid</returns>
+        ///
         public static bool is_valid_IP(string IpAddres)
         {
             string[] numbers = IpAddres.Split('.');
